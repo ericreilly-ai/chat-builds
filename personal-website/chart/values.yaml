@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: <YOUR_IMAGE_REPOSITORY>
+  repository:  ericreillyai/personal-website
   tag: latest
   pullPolicy: IfNotPresent
 
