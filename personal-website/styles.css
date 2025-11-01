@@ -1,0 +1,123 @@
+/*
+ * Global styles for Eric Reilly's personal website.
+ * Inspired by minimalist and tech-forward design principles.
+ */
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Navigation bar */
+.navbar {
+  background-color: #0a192f;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #e6f7ff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #e6f7ff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  background-color: #1f3a60;
+}
+
+/* Hero section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero .headshot {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  border: 4px solid #0a192f;
+}
+
+.hero .bio {
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+/* Projects section */
+.projects {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.projects h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.projects .project-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.projects .project-list li {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #0a192f;
+  color: #e6f7ff;
+  margin-top: 2rem;
+  font-size: 0.875rem;
+}
