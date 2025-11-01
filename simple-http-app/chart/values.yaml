@@ -1,0 +1,12 @@
+replicaCount: 1
+
+image:
+  repository: ericreillyai/simple-http-app
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 3000
+
+resources: {}
